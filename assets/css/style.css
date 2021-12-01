@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* slider area start */
+#slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/intro.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.slider-area {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 200;
+  color: white;
+}
+
+/* slider area end */
+#about {
+  margin-top: 5%;
+  height: 340px;
+}
+
+#about .container {
+  height: 340px;
+}
+
+#about .container .row {
+  width: 1170px;
+  margin: 0 auto;
+  height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about .container .row img {
+  max-width: 100%;
+}
+
+#about .container .row .col-5 {
+  width: 41.66%;
+}
+
+#about .container .row .col-7 {
+  width: 58.33%;
+}
+
+#about .container .row p {
+  color: gray;
+  letter-spacing: 0px;
+  margin-bottom: 1%;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+#about .container .buttons a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 0px;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 1.42857143;
+  font-size: 14px;
+}
+
+#about .container .buttons a:hover {
+  background: black;
+  color: white;
+}
+
+.intro-title {
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  width: 500px;
+  margin: 0 auto;
+  height: 80px;
+  letter-spacing: 3px;
+  line-height: 0.7;
+  font-size: 20px;
+}
+
+.intro-subtitle {
+  letter-spacing: 3px;
+  margin-bottom: 2%;
+}
+
+#what-i-do {
+  height: 746px;
+}
+
+#what-i-do .container {
+  height: 545px;
+  margin-top: 100px;
+  background-color: lightgray;
+}
+
+#what-i-do .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 1170px;
+  height: 430px;
+  margin: 0 auto;
+}
+
+#what-i-do .container .row .col-3 {
+  width: calc(100% / 12 * 3);
+  padding: 0 15px;
+  position: relative;
+}
+
+#what-i-do .container .row .box {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  height: 175px;
+}
+
+#what-i-do .container .row .box i {
+  font-size: 30px;
+  color: gray;
+}
+
+#what-i-do .container .row .box h3 {
+  margin-top: 30px;
+  font-weight: 800;
+}
+
+#what-i-do .container .row .box p {
+  overflow: hidden;
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+  font-weight: 400;
+}
+
+#what-i-do .container .title {
+  text-align: center;
+  font-size: 20px;
+  width: 1170px;
+  margin: 40px auto;
+  height: 145px;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
